@@ -34,7 +34,7 @@
 
     <!-- links de estilos -->
     <link rel="stylesheet" href="css/style.css" />
-    
+
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
     <!-- Código de las plataformas de Análisis -->
@@ -47,23 +47,62 @@
       <!-- *** ESTRUCTURA SEMÁNTICA *** -->
       <!-- Header (encabezado de la página, zona superior) -->
       <header>
-        <!-- nav (el navegador de toda la web) -->
-        <nav>
-          <a href="" class="link1">link1</a>
-          <a href="" class="link2">link2</a>
-          <a href="" class="link3">link3</a>
-          <a href="" class="link4">link4</a>
-        </nav>
+        <section class="banner">
+          <h1>Website's</h1>
+          <h1>Content Audit</h1>
+          <h4>in 8 Easy Steps</h4>
+          <picture class="hero">
+            <source
+              srcset="img/desktop/hero.webp 1x, img/desktop/hero@2x.webp 2x"
+              media="(min-width:1000px)"
+            />
+            <img
+              src=""
+              alt="nubes altas entre montañas"
+              decoding="async"
+              loading="lazy"
+            />
+          </picture>
+          <a href="#" class="boton-banner">Learn more</a>
+        </section>
       </header>
-      <!-- Main (centro de la página, zona central) -->
       <main>
-        <!-- section y article (posibilidades dentro de main) -->
+        <section class="textos-main">
+          <p>Hi Toni,</p>
+          <p>
+            Running a full-scale content audit may seem like a daunting task.
+            But not when ypu have a ready-made workflow at hand.
+          </p>
+          <p>
+            In today's guide, I'm sharing the exact 8 steps you need to take to
+            conduct a thorough content audit fon any website.
+          </p>
+          <a href="#" class="boton-main">Content Audit in 8 Steps</a>
+        </section>
       </main>
       <!-- Footer (final de la página, zona inferior) -->
       <footer>
-        <h6>&copy;Copyright</h6>
+        <picture class="img-footer">
+          <source
+            srcset="
+              img/desktop/img-footer.webp    1x,
+              img/desktop/img-footer@2x.webp 2x
+            "
+            media="(min-width:1000px)"
+          />
+          <img
+            src=""
+            alt="nubes altas entre montañas"
+            decoding="async"
+            loading="lazy"
+          />
+        </picture>
+        <section class="textos-footer">
+          <p>Cheers,</p>
+          <p>Zlata Verzhbitskaia</p>
+          <p>SEO PowerSuite</p>
+        </section>
       </footer>
     </div>
-
   </body>
 </html>
